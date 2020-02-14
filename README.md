@@ -28,10 +28,13 @@ Pandas are used
 We downloaded the Kaggle set given to us- https://www.kaggle.com/vasudeva009/predicting-coupon-redemption
 
 Performed EDA- Mentioned in the Jupyter Notebook- Assignment2_CleaningDigital_Marketing.ipynb
+
 Performed Statistical Analysis and suggested Marketing Techniques like
 
 Respose Measurements - Response_Measurement.ipynb
+
 RFM Score- RFM_Score.ipynb
+
 Customer LTV - Life_Time_Value.ipynb
 
 
