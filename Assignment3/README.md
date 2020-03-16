@@ -1,42 +1,22 @@
 # INFO7374DigitalMarketingAnalytics
 
 
-The dataset given 
+Assignment 3 Part 1– Understanding promotions
 
-The data available contains the following information, including the details of a sample of campaigns and coupons used in previous campaigns -
-User Demographic Details
-Campaign and coupon Details
-Product details
-Previous transactions
+Assumptions made- radioSpend and tvSpend is in USD
 
+Cross Channel Marketing and Budgeting Optimization:
+Criteo has published an online advertising dataset which has details of campaigns and budget allocated for each of them. The aim is to check the cross-channel optimization using various parameters to assess which channel should be getting the maximum budget for advertisement.
 
 
-On the available data, aggregation, joining the data, adding new columns to get much meaningful results and other operations were performed. 
-To work on data aggregation, indexing the data for faster retrieval, etc,
-XSV, Trifacta and Pandas were used. 
-
-XSV:https://github.com/BurntSushi/xsv
-Using XSV, each of the files were indexed and based on the matching columns, joins were performed on the data.
-
-Trifacta
-https://www.trifacta.com/
-
-Pandas
-A package in python used for manipulating data and analyzing it.
-Pandas are used  
-
-We downloaded the Kaggle set given to us- https://www.kaggle.com/vasudeva009/predicting-coupon-redemption
-
-Performed EDA- Mentioned in the Jupyter Notebook- Assignment2_CleaningDigital_Marketing.ipynb
-
-Performed Statistical Analysis and suggested Marketing Techniques like
-
-Respose Measurements - Response_Measurement.ipynb
-
-RFM Score- RFM_Score.ipynb
-
-Customer LTV - Life_Time_Value.ipynb
-
-
-
+Data
+The dataset contains the following fields:
+Timestamp: timestamp of the impression
+UID: unique user identifier
+Campaign: unique campaign identifier
+Conversion: 1 if there was a conversion in the 30 days after the impression; 0 otherwise
+Conversion ID: a unique identifier for each conversion
+Click: 1 if the impression was clicked; 0 otherwise
+Cost: the price paid for this ad
+Cat1-Cat9: categorical features associated with the ad. These features’ semantic meaning is not disclosed
 
